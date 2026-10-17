@@ -5,110 +5,156 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bengkel Mamak — Tambal Ban Motor & Mobil | Helvetia, Medan</title>
   <meta name="description" content="Bengkel Mamak — tambal ban motor & mobil Jl. Bunga Sakura Raya Helvetia Medan. Buka 14.00–22.00." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
     <div class="wrap nav">
-      <a class="brand" href="#beranda">🔧 BENGKEL MAMAK <small>Helvetia • Medan</small></a>
+      <a class="brand" href="#beranda">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <b>Bengkel Mamak</b>
+          <small>Helvetia · Medan</small>
+        </span>
+      </a>
       <nav class="links" id="navLinks">
         <a href="#tentang">Tentang</a>
-        <a href="#produk">Jasa</a>
+        <a href="#produk">Produk / Jasa</a>
         <a href="#galeri">Galeri</a>
         <a href="#kontak">Kontak</a>
       </nav>
-      <a class="btn" href="https://wa.me/6283184172531?text=Halo%20Bengkel%20Mamak" target="_blank" rel="noopener">Hubungi Kami</a>
+      <a class="btn" href="https://wa.me/6283184172531?text=Halo%20Bengkel%20Mamak" target="_blank" rel="noopener">📞 Hubungi Kami</a>
       <button class="hamb" id="hamb" aria-label="Menu">☰</button>
+    </div>
+    <div class="tape" aria-hidden="true"></div>
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>+++ Perbaikan Ringan +++ Buka 14.00–22.00 +++ Helvetia Medan +++</span>
+        <span>+++ Perbaikan Ringan +++ Buka 14.00–22.00 +++ Helvetia Medan +++</span>
+      </div>
     </div>
   </header>
 
   <main id="beranda">
     <div class="wrap hero">
-      <div>
+      <div class="hero-copy">
         <p class="status"><span class="dot" id="statusDot"></span> <span id="statusText">Cek jam buka...</span> • Helvetia, Medan</p>
-        <h1>BENGKEL MAMAK<br />Tambal Ban Motor & Mobil</h1>
-        <p class="slogan">Bocor? Mampir Sini, Beres — Aman & Terjamin.</p>
-        <p class="lead">UMKM milik <b>Syafriyani Matondang</b> di <b>Jl. Bunga Sakura Raya Lingk. 1 Helvetia, Medan</b>. Fokus untuk pengendara motor & mobil harian.</p>
+        <h1>Bengkel <span class="hl">Mamak</span><br />Tambal Ban<br />Motor &amp; Mobil</h1>
+        <p class="slogan">⚠️ Bocor? Mampir Sini, Beres — Aman &amp; Terjamin.</p>
+        <p class="lead">UMKM milik <b>Syafriyani Matondang</b> di <b>Jl. Bunga Sakura Raya Lingk. 1 Helvetia, Medan</b>. Fokus untuk pengendara motor &amp; mobil harian.</p>
         <div class="row">
           <a class="btn" href="https://wa.me/6283184172531?text=Halo%20Bengkel%20Mamak%2C%20ban%20saya%20bocor." target="_blank" rel="noopener">💬 Pesan Sekarang</a>
-          <a class="btn ghost" href="#produk">Lihat Jasa</a>
-        </div>
-        <div class="info">
-          <div>📞 <b>0831-8417-2331</b></div>
-          <div>⏰ <b>14.00–22.00</b></div>
-          <div>📍 <b>Helvetia</b></div>
+          <a class="btn ghost" href="#produk">🔧 Lihat Jasa</a>
         </div>
       </div>
-      <div>
-        <img class="hero-img" src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=900&q=80&auto=format&fit=crop" alt="Pengerjaan di bengkel" loading="lazy" />
+
+      <div class="hero-card">
+        <div class="hero-photo">
+          <span class="photo-badge">Foto Utama Bengkel</span>
+          <img class="hero-img" src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=900&q=80&auto=format&fit=crop" alt="Pengerjaan di bengkel" loading="lazy" />
+          <span class="stamp">★ Aman &amp; Terjamin ★</span>
+        </div>
+        <div class="hero-info">
+          <div><small>Telp / WA</small><b>0831-8417-2531</b></div>
+          <div><small>Jam</small><b>14.00–22.00</b></div>
+          <div><small>Lokasi</small><b>Bunga Sakura Raya</b></div>
+        </div>
       </div>
     </div>
   </main>
 
   <section id="tentang">
     <div class="wrap">
+      <p class="eyebrow">Tentang Usaha</p>
       <h2>Profil UMKM Kami</h2>
       <p class="sub">Bengkel tambal ban. Layanan utama: <b>perbaikan sepeda motor / mobil</b>, terutama tambal ban.</p>
       <div class="grid2">
         <div class="card">
-          <h3>👤 Pemilik</h3>
-          <p class="big">SYAFRIYANI MATONDANG</p>
+          <h3>👤 Pemilik UMKM</h3>
+          <p class="big">Syafriyani Matondang</p>
           <p>Alamat usaha: Jln. Bunga Sakura Raya Lingkung 1 Helvetia, Kota Medan, Sumatera Utara.</p>
-          <p>Target: <b>pengendara motor dan mobil</b>. Jam <b>14.00–22.00</b>, cocok untuk darurat sore–malam.</p>
+          <p>Target pelanggan: <b>pengendara motor dan mobil</b>. Jam <b>14.00–22.00</b>, cocok untuk darurat sore–malam.</p>
         </div>
         <div class="card">
-          <h3>⭐ Keunggulan</h3>
+          <h3>⭐ Keunggulan Usaha</h3>
           <ul class="check">
-            <li><b>Aman dan terjamin</b> — dikerjakan teliti, dicek ulang.</li>
-            <li><b>Motor & mobil satu tempat</b> — tidak perlu pindah bengkel.</li>
-            <li><b>Mudah dijangkau</b> — pinggir Jl. Bunga Sakura Raya.</li>
+            <li><b>Aman dan terjamin</b> — dikerjakan teliti, dicek ulang sebelum jalan.</li>
+            <li><b>Motor &amp; mobil satu tempat</b> — tidak perlu pindah bengkel.</li>
+            <li><b>Mudah dijangkau</b> — pinggir Jl. Bunga Sakura Raya, Helvetia.</li>
           </ul>
         </div>
+      </div>
+      <div class="chips">
+        <span class="chip">🔑 Kunci</span>
+        <span class="chip">🛞 Ban</span>
+        <span class="chip">⚙️ Gear</span>
+        <span class="chip">🔩 Baut</span>
+        <span class="chip">💨 Kompresor</span>
+        <span class="chip">🧰 Toolbox</span>
       </div>
     </div>
   </section>
 
   <section id="produk">
     <div class="wrap">
+      <p class="eyebrow">Produk / Jasa</p>
       <h2>Jasa yang Ditawarkan</h2>
       <p class="sub">Semua dikerjakan di tempat. Harga menyesuaikan kondisi.</p>
       <div class="grid3">
-        <article class="card">
+        <article class="card shot">
           <img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?w=800&q=80&auto=format&fit=crop" alt="Tambal ban" loading="lazy" />
-          <h3>Tambal Ban Motor & Mobil</h3>
-          <p>Tambal ban bocor / kena paku tubeless & biasa.</p>
-          <span class="tag">Paling Laris</span>
+          <div class="shot-body">
+            <h3>Tambal Ban Motor &amp; Mobil</h3>
+            <p>Tambal ban bocor / kena paku tubeless &amp; biasa.</p>
+            <div class="tags">
+              <span class="tag">Motor</span>
+              <span class="tag">Paling Laris</span>
+            </div>
+          </div>
         </article>
-        <article class="card">
+        <article class="card shot">
           <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&q=80&auto=format&fit=crop" alt="Motor" loading="lazy" />
-          <h3>Perbaikan Sepeda Motor</h3>
-          <p>Perbaikan ringan motor harian agar aman dipakai.</p>
-          <span class="tag">Motor</span>
+          <div class="shot-body">
+            <h3>Perbaikan Sepeda Motor</h3>
+            <p>Perbaikan ringan motor harian agar aman dipakai.</p>
+            <div class="tags"><span class="tag">Motor</span></div>
+          </div>
         </article>
-        <article class="card">
+        <article class="card shot">
           <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80&auto=format&fit=crop" alt="Mobil" loading="lazy" />
-          <h3>Perbaikan Mobil</h3>
-          <p>Penanganan ringan mobil, termasuk cek ban & angin.</p>
-          <span class="tag">Mobil</span>
+          <div class="shot-body">
+            <h3>Perbaikan Mobil</h3>
+            <p>Penanganan ringan mobil, termasuk cek ban &amp; angin.</p>
+            <div class="tags"><span class="tag">Mobil</span></div>
+          </div>
         </article>
-        <article class="card">
+        <article class="card shot">
           <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80&auto=format&fit=crop" alt="Diagnosa" loading="lazy" />
-          <h3>Cek & Diagnosa Jujur</h3>
-          <p>Yang perlu diganti ya diganti, yang aman ya aman.</p>
-          <span class="tag">Jujur</span>
+          <div class="shot-body">
+            <h3>Cek &amp; Diagnosa Jujur</h3>
+            <p>Yang perlu diganti ya diganti, yang aman ya aman.</p>
+            <div class="tags"><span class="tag">Jujur</span></div>
+          </div>
         </article>
-        <article class="card">
+        <article class="card shot">
           <img src="https://images.unsplash.com/photo-1613214149922-f1809c99b414?w=800&q=80&auto=format&fit=crop" alt="Angin ban" loading="lazy" />
-          <h3>Pompa & Cek Angin</h3>
-          <p>Tekanan pas bikin ban awet dan stabil.</p>
-          <span class="tag">Berkala</span>
+          <div class="shot-body">
+            <h3>Pompa &amp; Cek Angin</h3>
+            <p>Tekanan pas bikin ban awet dan stabil.</p>
+            <div class="tags"><span class="tag">Cek Berkala</span></div>
+          </div>
         </article>
-        <article class="card">
+        <article class="card shot">
           <img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=80&auto=format&fit=crop" alt="Darurat malam" loading="lazy" />
-          <h3>Darurat Sore–Malam</h3>
-          <p>Buka 14.00–22.00. Bocor pulang kerja langsung tangani.</p>
-          <span class="tag">14.00–22.00</span>
+          <div class="shot-body">
+            <h3>Darurat Sore–Malam</h3>
+            <p>Buka 14.00–22.00. Bocor pulang kerja langsung tangani.</p>
+            <div class="tags"><span class="tag">14.00–22.00</span></div>
+          </div>
         </article>
       </div>
     </div>
@@ -116,49 +162,58 @@
 
   <section id="galeri">
     <div class="wrap">
+      <p class="eyebrow">Galeri</p>
       <h2>Suasana Bengkel</h2>
-      <p class="sub">Dokumentasi seputar bengkel & ban.</p>
+      <p class="sub">Dokumentasi seputar bengkel &amp; ban.</p>
       <div class="grid3">
-        <figure class="card gal"><img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?w=800&q=80&auto=format&fit=crop" alt="Stok ban" loading="lazy" /><figcaption>Stok ban</figcaption></figure>
-        <figure class="card gal"><img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&q=80&auto=format&fit=crop" alt="Motor pelanggan" loading="lazy" /><figcaption>Motor pelanggan</figcaption></figure>
-        <figure class="card gal"><img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80&auto=format&fit=crop" alt="Mesin mobil" loading="lazy" /><figcaption>Area mesin</figcaption></figure>
-        <figure class="card gal"><img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80&auto=format&fit=crop" alt="Pengerjaan" loading="lazy" /><figcaption>Proses pengerjaan</figcaption></figure>
-        <figure class="card gal"><img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=80&auto=format&fit=crop" alt="Servis ban" loading="lazy" /><figcaption>Servis ban</figcaption></figure>
-        <figure class="card gal"><img src="https://images.unsplash.com/photo-1613214149922-f1809c99b414?w=800&q=80&auto=format&fit=crop" alt="Peralatan" loading="lazy" /><figcaption>Peralatan bengkel</figcaption></figure>
+        <figure class="card shot gal"><img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?w=800&q=80&auto=format&fit=crop" alt="Stok ban" loading="lazy" /><figcaption>Stok &amp; tumpukan ban</figcaption></figure>
+        <figure class="card shot gal"><img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=800&q=80&auto=format&fit=crop" alt="Motor pelanggan" loading="lazy" /><figcaption>Motor pelanggan</figcaption></figure>
+        <figure class="card shot gal"><img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80&auto=format&fit=crop" alt="Mesin mobil" loading="lazy" /><figcaption>Area mesin mobil</figcaption></figure>
+        <figure class="card shot gal"><img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80&auto=format&fit=crop" alt="Pengerjaan" loading="lazy" /><figcaption>Proses pengerjaan</figcaption></figure>
+        <figure class="card shot gal"><img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=80&auto=format&fit=crop" alt="Servis ban" loading="lazy" /><figcaption>Servis ban</figcaption></figure>
+        <figure class="card shot gal"><img src="https://images.unsplash.com/photo-1613214149922-f1809c99b414?w=800&q=80&auto=format&fit=crop" alt="Peralatan" loading="lazy" /><figcaption>Peralatan bengkel</figcaption></figure>
       </div>
     </div>
   </section>
 
   <section id="kontak">
     <div class="wrap">
+      <p class="eyebrow">Kontak</p>
       <h2>Hubungi Bengkel Mamak</h2>
-      <p class="sub">WhatsApp fast respon — <span id="statusText2">—</span></p>
+      <p class="sub">WhatsApp fast respon — alamat &amp; peta di bawah.</p>
       <div class="grid2">
         <div class="card">
-          <p>📞 <b>0831-8417-2531</b></p>
-          <p>📍 Jl. Bunga Sakura Raya Lingkung 1 Helvetia, Medan</p>
-          <p>⏰ 14.00–22.00 WIB</p>
+          <h3>💬 WhatsApp &amp; Alamat</h3>
+          <div class="kv"><span>WhatsApp / Telepon</span><b>0831-8417-2531</b></div>
+          <div class="kv"><span>Alamat usaha</span><b>Jln. Bunga Sakura Raya Lingkung 1 Helvetia, Medan</b></div>
+          <div class="kv"><span>Jam operasional</span><b>14.00–22.00 WIB • <em id="statusText2">—</em></b></div>
+          <div class="kv"><span>Pemilik</span><b>Syafriyani Matondang</b></div>
           <div class="row">
             <a class="btn" href="https://wa.me/6283184172531?text=Halo%20Bengkel%20Mamak%2C%20saya%20butuh%20tambal%20ban." target="_blank" rel="noopener">💬 Chat WhatsApp</a>
             <a class="btn ghost" href="tel:083184172531">📞 Telepon</a>
           </div>
         </div>
-        <iframe class="map" title="Peta Bengkel Mamak" loading="lazy" src="https://www.google.com/maps?q=Jl.+Bunga+Sakura+Raya+Lingkungan+1+Helvetia+Medan+Sumatera+Utara&output=embed"></iframe>
+        <div class="map-wrap">
+          <a class="btn ghost maps-link" href="https://www.google.com/maps/search/?api=1&query=Jl.+Bunga+Sakura+Raya+Lingkungan+1+Helvetia+Medan" target="_blank" rel="noopener">🗺️ Buka di Maps</a>
+          <iframe class="map" title="Peta Bengkel Mamak" loading="lazy" src="https://www.google.com/maps?q=Jl.+Bunga+Sakura+Raya+Lingkungan+1+Helvetia+Medan+Sumatera+Utara&output=embed"></iframe>
+        </div>
       </div>
       <div class="card cta">
-        <h3>BAN BOCOR? JANGAN DIDORONG JAUH-JAUH</h3>
+        <h3>Ban Bocor? Jangan Didorong Jauh-Jauh</h3>
         <p class="telp">📞 0831-8417-2531</p>
         <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Jl.+Bunga+Sakura+Raya+Lingkungan+1+Helvetia+Medan" target="_blank" rel="noopener">Buka di Google Maps</a>
       </div>
     </div>
   </section>
 
+  <div class="film" aria-hidden="true"></div>
+
   <footer>
     <div class="wrap foot">
-      <div><b>BENGKEL MAMAK</b><br />Tambal ban motor & mobil.<br />Jl. Bunga Sakura Raya Lingk 1 Helvetia, Medan.</div>
-      <div>📞 0831-8417-2531<br />⏰ 14.00–22.00 WIB<br />👤 Syafriyani Matondang</div>
+      <div><b>BENGKEL MAMAK</b><br />Tambal ban motor &amp; mobil.<br />Jl. Bunga Sakura Raya Lingk 1 Helvetia, Medan.</div>
+      <div><b>KONTAK</b><br />📞 0831-8417-2531<br />⏰ 14.00–22.00 WIB<br />👤 Syafriyani Matondang</div>
     </div>
-    <p class="copy">© <span id="year"></span> Bengkel Mamak — UMKM Helvetia, Medan.</p>
+    <p class="copy">© <span id="year"></span> Bengkel Mamak — UMKM Helvetia, Medan. All rights reserved.</p>
   </footer>
 
   <a class="wa" href="https://wa.me/6283184172531?text=Halo%20Bengkel%20Mamak!" target="_blank" rel="noopener">💬 WA Bengkel</a>
